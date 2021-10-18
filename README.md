@@ -21,8 +21,6 @@ Per poter utilizzare il sistema è necessario andare ad installare le seguenti l
             entities
             movietoIgnore
             negativeEntity
-            prefAspects
-            negAspects
             recListSize
         }
         ```
