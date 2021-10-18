@@ -15,6 +15,7 @@ Per poter utilizzare il sistema è necessario andare ad installare le seguenti l
     - /SelectModel/id: gli id disponibili sono 1-7 per la selezione dei modelli
     - /getSuggestions: prende in input l'oggetto JSON con i seguenti campi :
     
+       ```JSON
         {
             movies
             entities
@@ -24,7 +25,7 @@ Per poter utilizzare il sistema è necessario andare ad installare le seguenti l
             negAspects
             recListSize
         }
-
+        ```
 
 - RSCCore.py: contiene le funzioni dei file che accedono alla Knowledge Base ed effettua i calcoli di similarità legati alle proprietà
 
